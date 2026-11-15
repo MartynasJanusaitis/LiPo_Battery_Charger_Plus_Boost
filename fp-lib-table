@@ -1,4 +1,5 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "USB4125_GF_A_0190") (type "KiCad") (uri "${KIPRJMOD}/Components/USB4125_GF_A_0190") (options "") (descr ""))
+	(lib (name "USB4125_GF_A_0190") (type "KiCad") (uri "${KIPRJMOD}/components/USB4125_GF_A_0190") (options "") (descr ""))
+	(lib (name "SMF5.0A") (type "KiCad") (uri "${KIPRJMOD}/components/SMF5.0A") (options "") (descr ""))
 )
