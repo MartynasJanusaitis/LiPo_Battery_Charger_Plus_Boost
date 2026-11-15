@@ -6,3 +6,4 @@ fp-info-cache
 ~*.lck
 *.kicad_prl
 datasheets/
+*.bak
