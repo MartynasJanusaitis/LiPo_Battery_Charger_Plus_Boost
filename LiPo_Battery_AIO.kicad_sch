@@ -768,8 +768,8 @@
 		)
 	)
 	(rectangle
-		(start 24.13 36.195)
-		(end 93.98 81.915)
+		(start 93.98 36.195)
+		(end 24.13 81.915)
 		(stroke
 			(width 0)
 			(type dash)
@@ -781,7 +781,7 @@
 	)
 	(text "USB Connector"
 		(exclude_from_sim no)
-		(at 31.496 34.544 0)
+		(at 86.614 34.544 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -790,62 +790,62 @@
 		(uuid "ba801046-6014-431b-82c8-67f7ac64c435")
 	)
 	(junction
-		(at 63.5 59.69)
+		(at 54.61 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25c8289e-91ed-44f5-9abe-27445a0c049b")
 	)
 	(junction
-		(at 63.5 64.77)
+		(at 54.61 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fa69ef6-e614-43f9-83bb-56e352a45748")
 	)
 	(junction
-		(at 63.5 67.31)
+		(at 54.61 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7068bc8f-ba71-4676-b1b4-aab0a73634d6")
 	)
 	(junction
-		(at 53.34 52.07)
+		(at 64.77 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72f13ef0-70ea-48f6-ae19-4af1724a7d8d")
 	)
 	(junction
-		(at 45.72 44.45)
+		(at 72.39 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d035e61-d21e-4237-a814-75f5d86d64a6")
 	)
 	(junction
-		(at 63.5 69.85)
+		(at 54.61 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a426e7da-a80f-4c9b-8efb-74ece8bde429")
 	)
 	(junction
-		(at 63.5 72.39)
+		(at 54.61 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5b3741a-c7bc-4375-a9bc-b9fca76d9a0b")
 	)
 	(junction
-		(at 35.56 43.18)
+		(at 82.55 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1d4a353-2d5f-47d2-94d8-c642e86e396d")
 	)
 	(junction
-		(at 38.1 41.91)
+		(at 80.01 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdcad051-1609-4d5f-a85c-85878a30bb00")
 	)
 	(wire
 		(pts
-			(xy 35.56 44.45) (xy 63.5 44.45)
+			(xy 82.55 44.45) (xy 54.61 44.45)
 		)
 		(stroke
 			(width 0)
@@ -855,7 +855,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 49.53) (xy 53.34 52.07)
+			(xy 64.77 49.53) (xy 64.77 52.07)
 		)
 		(stroke
 			(width 0)
@@ -865,7 +865,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 59.69) (xy 63.5 64.77)
+			(xy 54.61 59.69) (xy 54.61 64.77)
 		)
 		(stroke
 			(width 0)
@@ -875,7 +875,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 57.15) (xy 63.5 59.69)
+			(xy 54.61 57.15) (xy 54.61 59.69)
 		)
 		(stroke
 			(width 0)
@@ -885,7 +885,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 41.91) (xy 63.5 41.91)
+			(xy 82.55 41.91) (xy 54.61 41.91)
 		)
 		(stroke
 			(width 0)
@@ -895,7 +895,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 52.07) (xy 53.34 53.34)
+			(xy 64.77 52.07) (xy 64.77 53.34)
 		)
 		(stroke
 			(width 0)
@@ -905,7 +905,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 44.45) (xy 45.72 45.72)
+			(xy 72.39 44.45) (xy 72.39 45.72)
 		)
 		(stroke
 			(width 0)
@@ -915,7 +915,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 64.77) (xy 63.5 73.66)
+			(xy 54.61 64.77) (xy 54.61 73.66)
 		)
 		(stroke
 			(width 0)
@@ -925,7 +925,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 41.91) (xy 38.1 45.72)
+			(xy 80.01 41.91) (xy 80.01 45.72)
 		)
 		(stroke
 			(width 0)
@@ -935,7 +935,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 41.91) (xy 35.56 43.18)
+			(xy 82.55 41.91) (xy 82.55 43.18)
 		)
 		(stroke
 			(width 0)
@@ -945,7 +945,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 49.53) (xy 53.34 49.53)
+			(xy 62.23 49.53) (xy 64.77 49.53)
 		)
 		(stroke
 			(width 0)
@@ -955,7 +955,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 44.45) (xy 35.56 43.18)
+			(xy 82.55 44.45) (xy 82.55 43.18)
 		)
 		(stroke
 			(width 0)
@@ -965,7 +965,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 43.18) (xy 33.02 43.18)
+			(xy 82.55 43.18) (xy 85.09 43.18)
 		)
 		(stroke
 			(width 0)
@@ -975,7 +975,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 52.07) (xy 55.88 52.07)
+			(xy 64.77 52.07) (xy 62.23 52.07)
 		)
 		(stroke
 			(width 0)
@@ -984,18 +984,19 @@
 		(uuid "fe7b0824-a997-4ef0-968a-e7e9440ed5e2")
 	)
 	(label "VBUS"
-		(at 33.02 43.18 180)
+		(at 85.09 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "69111e8a-8207-497b-9e74-4fae679a3b6f")
 	)
 	(symbol
 		(lib_id "USB4125-GF-A-0190_REVA2:USB4125-GF-A-0190_REVA2")
-		(at 76.2 49.53 0)
+		(at 41.91 49.53 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1006,7 +1007,7 @@
 		(fields_autoplaced yes)
 		(uuid "17707cc3-a427-4484-8140-05f6e8f33f22")
 		(property "Reference" "J1"
-			(at 85.09 55.8799 0)
+			(at 33.02 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1017,7 +1018,7 @@
 			)
 		)
 		(property "Value" "USB_C"
-			(at 85.09 58.4199 0)
+			(at 33.02 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1027,8 +1028,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "USB4125-GF-A-0190_REVA2:GCT_USB4125-GF-A-0190_REVA2"
-			(at 76.2 49.53 0)
+		(property "Footprint" "USB4125_GF_A_0190:GCT_USB4125-GF-A-0190_REVA2"
+			(at 41.91 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1040,7 +1041,7 @@
 			)
 		)
 		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/USB4125-GF-A-0190_Global_Connector_Technology.pdf"
-			(at 76.2 49.53 0)
+			(at 41.91 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1052,7 +1053,7 @@
 			)
 		)
 		(property "Description" "USB-C (USB TYPE-C) Receptacle Connector 24 (6+18 Dummy) - Power Only 6 Pin Position Surface Mount, Right Angle; Through Hole"
-			(at 76.2 49.53 0)
+			(at 41.91 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1064,7 +1065,7 @@
 			)
 		)
 		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/USB4125-GF-A-0190_Global_Connector_Technology.pdf"
-			(at 76.2 49.53 0)
+			(at 41.91 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1076,7 +1077,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Global Connector Technology"
-			(at 76.2 49.53 0)
+			(at 41.91 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1088,7 +1089,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.16 mm"
-			(at 76.2 49.53 0)
+			(at 41.91 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1100,7 +1101,7 @@
 			)
 		)
 		(property "MPN" "USB4125-GF-A-0190"
-			(at 76.2 49.53 0)
+			(at 41.91 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1112,7 +1113,7 @@
 			)
 		)
 		(property "PARTREV" "Rev A2"
-			(at 76.2 49.53 0)
+			(at 41.91 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1124,7 +1125,7 @@
 			)
 		)
 		(property "SOURCE_URL" "https://www.snapeda.com/parts/USB4125-GF-A-0190/Global+Connector+Technology/view-part/"
-			(at 76.2 49.53 0)
+			(at 41.91 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1136,7 +1137,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 76.2 49.53 0)
+			(at 41.91 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1188,7 +1189,8 @@
 	)
 	(symbol
 		(lib_id "Diode:SMF5V0A")
-		(at 45.72 49.53 270)
+		(at 72.39 49.53 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1198,8 +1200,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1aa33abf-f471-41e4-9d1a-f23309ebe2dc")
-		(property "Reference" "D?"
-			(at 48.26 48.2599 90)
+		(property "Reference" "D2"
+			(at 69.85 48.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1210,7 +1212,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 48.26 50.7999 90)
+			(at 69.85 50.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1221,7 +1223,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 40.64 49.53 0)
+			(at 77.47 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1232,7 +1234,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?85881"
-			(at 45.72 48.26 0)
+			(at 72.39 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1243,7 +1245,7 @@
 			)
 		)
 		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
-			(at 45.72 49.53 0)
+			(at 72.39 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1262,7 +1264,7 @@
 		(instances
 			(project "LiPo_Battery_AIO"
 				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
-					(reference "D?")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -1270,8 +1272,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 53.34 0)
-		(mirror y)
+		(at 80.01 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1280,8 +1281,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2454978e-a79b-4c00-96bc-7af139a27616")
-		(property "Reference" "#PWR04"
-			(at 38.1 59.69 0)
+		(property "Reference" "#PWR01"
+			(at 80.01 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1292,7 +1293,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 58.42 0)
+			(at 80.01 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1302,7 +1303,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 53.34 0)
+			(at 80.01 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1313,7 +1314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 53.34 0)
+			(at 80.01 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1324,7 +1325,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 53.34 0)
+			(at 80.01 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1340,7 +1341,7 @@
 		(instances
 			(project "LiPo_Battery_AIO"
 				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1348,7 +1349,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 73.66 0)
+		(at 54.61 73.66 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1358,8 +1360,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "370641b6-68bf-43d2-9838-0378ff2b350f")
-		(property "Reference" "#PWR02"
-			(at 63.5 80.01 0)
+		(property "Reference" "#PWR04"
+			(at 54.61 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1370,7 +1372,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 78.74 0)
+			(at 54.61 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1380,7 +1382,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 73.66 0)
+			(at 54.61 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1391,7 +1393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 73.66 0)
+			(at 54.61 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1402,7 +1404,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 73.66 0)
+			(at 54.61 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1418,7 +1420,7 @@
 		(instances
 			(project "LiPo_Battery_AIO"
 				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1426,7 +1428,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 52.07 90)
+		(at 58.42 52.07 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1436,7 +1439,7 @@
 		(dnp no)
 		(uuid "506e103d-baba-439b-af76-674d34fea5fa")
 		(property "Reference" "R2"
-			(at 57.658 54.61 90)
+			(at 60.452 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1446,7 +1449,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 61.976 54.61 90)
+			(at 56.134 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1456,7 +1459,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 53.848 90)
+			(at 58.42 53.848 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1467,7 +1470,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 52.07 0)
+			(at 58.42 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1478,7 +1481,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 52.07 0)
+			(at 58.42 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1505,8 +1508,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 53.34 0)
-		(mirror y)
+		(at 72.39 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1515,8 +1517,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "542c6b76-5300-43d0-88e8-010618716aa6")
-		(property "Reference" "#PWR03"
-			(at 45.72 59.69 0)
+		(property "Reference" "#PWR02"
+			(at 72.39 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1527,7 +1529,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 58.42 0)
+			(at 72.39 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1537,7 +1539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 53.34 0)
+			(at 72.39 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1548,7 +1550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 53.34 0)
+			(at 72.39 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1559,7 +1561,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 53.34 0)
+			(at 72.39 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1575,7 +1577,7 @@
 		(instances
 			(project "LiPo_Battery_AIO"
 				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1583,8 +1585,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 53.34 0)
-		(mirror y)
+		(at 64.77 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1593,8 +1594,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1c0f4fd-4c1d-4f27-a732-5996cc8a13de")
-		(property "Reference" "#PWR01"
-			(at 53.34 59.69 0)
+		(property "Reference" "#PWR03"
+			(at 64.77 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1605,7 +1606,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 58.42 0)
+			(at 64.77 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1615,7 +1616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 53.34 0)
+			(at 64.77 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1626,7 +1627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 53.34 0)
+			(at 64.77 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1637,7 +1638,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 53.34 0)
+			(at 64.77 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1653,7 +1654,7 @@
 		(instances
 			(project "LiPo_Battery_AIO"
 				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1661,7 +1662,8 @@
 	)
 	(symbol
 		(lib_id "Diode:SMF5V0A")
-		(at 38.1 49.53 270)
+		(at 80.01 49.53 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1671,8 +1673,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e813e376-9b3b-493f-8f85-b52ee672204c")
-		(property "Reference" "D?"
-			(at 40.64 48.2599 90)
+		(property "Reference" "D1"
+			(at 77.47 48.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1683,7 +1685,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 40.64 50.7999 90)
+			(at 77.47 50.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1694,7 +1696,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 33.02 49.53 0)
+			(at 85.09 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1705,7 +1707,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?85881"
-			(at 38.1 48.26 0)
+			(at 80.01 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1716,7 +1718,7 @@
 			)
 		)
 		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
-			(at 38.1 49.53 0)
+			(at 80.01 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1735,7 +1737,7 @@
 		(instances
 			(project "LiPo_Battery_AIO"
 				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -1743,7 +1745,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 49.53 90)
+		(at 58.42 49.53 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1753,7 +1756,7 @@
 		(dnp no)
 		(uuid "fdb8d0e1-b2fb-4364-b05c-8f68a404d0fd")
 		(property "Reference" "R1"
-			(at 57.658 47.244 90)
+			(at 60.452 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1763,7 +1766,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 61.722 47.244 90)
+			(at 56.388 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1773,7 +1776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 51.308 90)
+			(at 58.42 51.308 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1784,7 +1787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 49.53 0)
+			(at 58.42 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1795,7 +1798,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 49.53 0)
+			(at 58.42 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
