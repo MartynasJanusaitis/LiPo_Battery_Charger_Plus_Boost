@@ -1821,7 +1821,7 @@
 		)
 		(uuid "ba801046-6014-431b-82c8-67f7ac64c435")
 	)
-	(text "1) 1.5k resistor programs\n500mA of charging current.\n\n2) Pulling TEMP pin to GND\ndisables the temperature\nsensing."
+	(text "1) 2k resistor programs\n600mA of charging current.\n\n2) Pulling TEMP pin to GND\ndisables the temperature\nsensing."
 		(exclude_from_sim no)
 		(at 155.956 81.788 0)
 		(effects
@@ -3419,7 +3419,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "2k"
 			(at 147.32 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
