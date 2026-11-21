@@ -4,4 +4,5 @@
 	(lib (name "SMF5.0A") (type "KiCad") (uri "${KIPRJMOD}/components/SMF5.0A") (options "") (descr ""))
 	(lib (name "FS8205A") (type "KiCad") (uri "${KIPRJMOD}/components/FS8205A") (options "") (descr ""))
 	(lib (name "B2B-PH-K-S_LF__SN_") (type "KiCad") (uri "${KIPRJMOD}/components/B2B-PH-K-S_LF__SN_") (options "") (descr ""))
+	(lib (name "AO3401A") (type "KiCad") (uri "${KIPRJMOD}/components/AO3401A") (options "") (descr ""))
 )
