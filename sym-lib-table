@@ -2,4 +2,6 @@
 	(version 7)
 	(lib (name "USB4125-GF-A-0190_REVA2") (type "KiCad") (uri "${KIPRJMOD}/components/USB4125_GF_A_0190/USB4125-GF-A-0190_REVA2.kicad_sym") (options "") (descr ""))
 	(lib (name "SMF5.0A") (type "KiCad") (uri "${KIPRJMOD}/components/SMF5.0A/SMF5.0A.kicad_sym") (options "") (descr ""))
+	(lib (name "FS8205A") (type "KiCad") (uri "${KIPRJMOD}/components/FS8205A/FS8205A.kicad_sym") (options "") (descr ""))
+	(lib (name "B2B-PH-K-S") (type "KiCad") (uri "${KIPRJMOD}/components/B2B-PH-K-S_LF__SN_/B2B-PH-K-S_LF__SN_.kicad_sym") (options "") (descr ""))
 )
