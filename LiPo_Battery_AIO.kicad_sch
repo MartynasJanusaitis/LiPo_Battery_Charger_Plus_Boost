@@ -4728,6 +4728,12 @@
 		(uuid "4feaa75d-cc84-4171-8737-3da91a2e4c4c")
 	)
 	(junction
+		(at 52.07 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a04e382-ed5e-4a5f-9e30-6b0576d22c42")
+	)
+	(junction
 		(at 194.31 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4774,12 +4780,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "825d27d6-54be-431d-beb5-f18fcc175955")
-	)
-	(junction
-		(at 53.34 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94ad236d-8d63-4770-a4ee-85040c5d97c9")
 	)
 	(junction
 		(at 46.99 162.56)
@@ -5519,6 +5519,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 115.57) (xy 58.42 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b915620a-a518-4267-9f61-132eb945ba55")
+	)
+	(wire
+		(pts
 			(xy 113.03 53.34) (xy 123.19 53.34)
 		)
 		(stroke
@@ -5569,7 +5579,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 115.57) (xy 58.42 115.57)
+			(xy 48.26 115.57) (xy 52.07 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6243,6 +6253,84 @@
 			(project "LiPo_Battery_AIO"
 				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1052f7a2-c315-417b-8453-ef39f13a25e5")
+		(property "Reference" "#PWR014"
+			(at 52.07 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81347725-a6cf-46c7-8c9f-027a35b52e15")
+		)
+		(instances
+			(project "LiPo_Battery_AIO"
+				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9454,7 +9542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 162.56 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -10705,84 +10793,6 @@
 			(project "LiPo_Battery_AIO"
 				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 53.34 115.57 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e767ac50-bc64-4393-9f17-6a64945fb47e")
-		(property "Reference" "#PWR014"
-			(at 53.34 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 50.8 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 53.34 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d95fcfce-cf98-464d-8a6d-2e0377cb1f63")
-		)
-		(instances
-			(project "LiPo_Battery_AIO"
-				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
