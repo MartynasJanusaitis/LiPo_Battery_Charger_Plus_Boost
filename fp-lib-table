@@ -7,4 +7,5 @@
 	(lib (name "TLV62569PDDCR") (type "KiCad") (uri "${KIPRJMOD}/components/TLV62569PDDCR") (options "") (descr ""))
 	(lib (name "1N5819HW-7-F") (type "KiCad") (uri "${KIPRJMOD}/components/1N5819HW-7-F") (options "") (descr ""))
 	(lib (name "8205A") (type "KiCad") (uri "${KIPRJMOD}/components/8205A") (options "") (descr ""))
+	(lib (name "SRP3020TA") (type "KiCad") (uri "${KIPRJMOD}/components/SRP3020TA") (options "") (descr ""))
 )
