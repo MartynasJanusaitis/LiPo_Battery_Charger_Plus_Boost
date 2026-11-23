@@ -4231,6 +4231,133 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:-BATT"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "-BATT"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-BATT\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "-BATT_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "-BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -4476,7 +4603,7 @@
 	)
 	(rectangle
 		(start 104.775 88.265)
-		(end 226.695 138.43)
+		(end 217.805 138.43)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4523,8 +4650,8 @@
 		(uuid "8c2e366b-b91f-423b-a922-39925c79753f")
 	)
 	(rectangle
-		(start 139.065 142.875)
-		(end 180.975 161.29)
+		(start 140.335 142.875)
+		(end 195.58 161.925)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4570,7 +4697,7 @@
 	)
 	(text "Output"
 		(exclude_from_sim no)
-		(at 138.938 141.478 0)
+		(at 140.208 141.478 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4710,12 +4837,6 @@
 		(uuid "447a1fb1-85a4-4197-a906-7a9e099a64a1")
 	)
 	(junction
-		(at 205.74 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f1ccff4-a65d-4c29-89d0-d7ff40b7029a")
-	)
-	(junction
 		(at 45.72 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4726,12 +4847,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4feaa75d-cc84-4171-8737-3da91a2e4c4c")
-	)
-	(junction
-		(at 52.07 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a04e382-ed5e-4a5f-9e30-6b0576d22c42")
 	)
 	(junction
 		(at 194.31 119.38)
@@ -4764,6 +4879,12 @@
 		(uuid "7068bc8f-ba71-4676-b1b4-aab0a73634d6")
 	)
 	(junction
+		(at 52.07 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71f98f5b-de68-419c-a86b-b643b350743c")
+	)
+	(junction
 		(at 58.42 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4794,13 +4915,19 @@
 		(uuid "9d035e61-d21e-4237-a814-75f5d86d64a6")
 	)
 	(junction
+		(at 161.29 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3f62286-0396-41a3-be3f-6d2f65085836")
+	)
+	(junction
 		(at 45.72 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a426e7da-a80f-4c9b-8efb-74ece8bde429")
 	)
 	(junction
-		(at 208.28 101.6)
+		(at 199.39 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5134903-01c2-4c38-b190-a2a579e704ff")
@@ -4848,6 +4975,12 @@
 		(uuid "dba916d3-cc16-446e-b1a4-a0eb2d3cb91a")
 	)
 	(junction
+		(at 161.29 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dee836c5-68fe-445d-b099-89706bcb997f")
+	)
+	(junction
 		(at 88.9 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4889,7 +5022,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 101.6) (xy 208.28 101.6)
+			(xy 179.07 101.6) (xy 204.47 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4979,6 +5112,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 149.86) (xy 161.29 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1accddec-bab6-4a4b-bf4f-51ca52959afe")
+	)
+	(wire
+		(pts
 			(xy 171.45 101.6) (xy 170.18 101.6)
 		)
 		(stroke
@@ -5059,6 +5202,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 64.77) (xy 143.51 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e396ece-7d7d-45b5-8a3a-bae51c945a3c")
+	)
+	(wire
+		(pts
 			(xy 45.72 52.07) (xy 45.72 57.15)
 		)
 		(stroke
@@ -5076,6 +5229,16 @@
 			(type default)
 		)
 		(uuid "434f092a-9f58-4d36-8e9c-420419f87c19")
+	)
+	(wire
+		(pts
+			(xy 165.1 152.4) (xy 168.91 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ebe826-a23d-4c9f-ba92-ebc74ed32b3b")
 	)
 	(wire
 		(pts
@@ -5099,13 +5262,23 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 154.94) (xy 157.48 156.21)
+			(xy 168.91 154.94) (xy 168.91 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4751ec50-4496-4687-932c-fc3867da522d")
+	)
+	(wire
+		(pts
+			(xy 161.29 157.48) (xy 165.1 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4772c823-a93e-471e-9b21-52f3ec0be1cb")
 	)
 	(wire
 		(pts
@@ -5126,6 +5299,16 @@
 			(type default)
 		)
 		(uuid "4fccc157-a005-47e5-a647-a57cac152822")
+	)
+	(wire
+		(pts
+			(xy 165.1 157.48) (xy 165.1 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "529fbe27-1948-41fb-84a1-59c9dbc2408d")
 	)
 	(wire
 		(pts
@@ -5239,16 +5422,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 101.6) (xy 210.82 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66f9fde0-44eb-430b-80f1-f6ee5657b7f5")
-	)
-	(wire
-		(pts
 			(xy 121.92 48.26) (xy 121.92 40.64)
 		)
 		(stroke
@@ -5349,6 +5522,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 149.86) (xy 168.91 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f6fde3-1c92-4dce-8cdf-82ca2d556468")
+	)
+	(wire
+		(pts
 			(xy 58.42 115.57) (xy 60.96 115.57)
 		)
 		(stroke
@@ -5366,16 +5549,6 @@
 			(type default)
 		)
 		(uuid "8d5ec496-5e2b-4df0-84e6-5d0ac572f885")
-	)
-	(wire
-		(pts
-			(xy 179.07 101.6) (xy 205.74 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dedca87-a1b4-40c6-85b5-82c08889d4e5")
 	)
 	(wire
 		(pts
@@ -5426,6 +5599,16 @@
 			(type default)
 		)
 		(uuid "926e3c26-0169-42b4-826b-2d9fe172efa6")
+	)
+	(wire
+		(pts
+			(xy 156.21 157.48) (xy 161.29 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981a0abf-44d9-41b3-a2a9-72c1b4fdd26f")
 	)
 	(wire
 		(pts
@@ -5489,26 +5672,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 101.6) (xy 205.74 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa09a93e-4d68-4882-9999-09ff211736ef")
-	)
-	(wire
-		(pts
-			(xy 157.48 156.21) (xy 156.21 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b16e2957-e643-4033-965e-27a1600fb774")
-	)
-	(wire
-		(pts
 			(xy 48.26 41.91) (xy 45.72 41.91)
 		)
 		(stroke
@@ -5516,16 +5679,6 @@
 			(type default)
 		)
 		(uuid "b2445343-db63-4f8f-ae87-fdebb102bc4f")
-	)
-	(wire
-		(pts
-			(xy 52.07 115.57) (xy 58.42 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b915620a-a518-4267-9f61-132eb945ba55")
 	)
 	(wire
 		(pts
@@ -5599,16 +5752,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 58.42) (xy 143.51 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2b1cefa-e867-4f5a-a9d7-2c5288a278b0")
-	)
-	(wire
-		(pts
 			(xy 152.4 39.37) (xy 153.67 39.37)
 		)
 		(stroke
@@ -5616,6 +5759,16 @@
 			(type default)
 		)
 		(uuid "d4dd46bf-45e9-4e67-b613-235b87c95b57")
+	)
+	(wire
+		(pts
+			(xy 52.07 115.57) (xy 58.42 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63a6ffa-9afe-4999-8ed2-ac5804e7a664")
 	)
 	(wire
 		(pts
@@ -5639,6 +5792,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 55.88) (xy 143.51 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c9f4f3-5201-4291-a05e-9909f1ebbf17")
+	)
+	(wire
+		(pts
 			(xy 63.5 105.41) (xy 63.5 104.14)
 		)
 		(stroke
@@ -5656,16 +5819,6 @@
 			(type default)
 		)
 		(uuid "e91e5f01-3111-4b52-a87a-2944c4f0a94b")
-	)
-	(wire
-		(pts
-			(xy 143.51 67.31) (xy 143.51 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9383ef8-b0dc-4535-8790-f8ac29cdef97")
 	)
 	(wire
 		(pts
@@ -5758,12 +5911,12 @@
 		(uuid "fb599af8-4394-4b01-87c4-e9fc318ef304")
 	)
 	(label "BATT_SENSOR"
-		(at 156.21 156.21 180)
+		(at 168.91 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "5bb51194-95e5-4f2b-8b45-6c5931c80deb")
 	)
@@ -6253,84 +6406,6 @@
 			(project "LiPo_Battery_AIO"
 				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 52.07 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1052f7a2-c315-417b-8453-ef39f13a25e5")
-		(property "Reference" "#PWR014"
-			(at 52.07 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "81347725-a6cf-46c7-8c9f-027a35b52e15")
-		)
-		(instances
-			(project "LiPo_Battery_AIO"
-				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7093,7 +7168,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 157.48 149.86 90)
+		(at 156.21 149.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7104,7 +7179,7 @@
 		(fields_autoplaced yes)
 		(uuid "26d5c68f-bc3d-40af-aa46-f3a26158ce5b")
 		(property "Reference" "#PWR026"
-			(at 161.29 149.86 0)
+			(at 160.02 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7115,7 +7190,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 153.67 149.8599 90)
+			(at 152.4 149.8599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7126,7 +7201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 149.86 0)
+			(at 156.21 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7137,7 +7212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 149.86 0)
+			(at 156.21 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7148,7 +7223,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 157.48 149.86 0)
+			(at 156.21 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8003,168 +8078,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 52.07 44.45 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "506e103d-baba-439b-af76-674d34fea5fa")
-		(property "Reference" "R2"
-			(at 54.102 46.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 49.784 46.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 52.07 46.228 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 52.07 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2126381d-ca41-49b5-8fa0-e7d83617973d")
-		)
-		(pin "1"
-			(uuid "3946a37d-021a-4d23-add8-dd775052c60f")
-		)
-		(instances
-			(project "LiPo_Battery_AIO"
-				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 143.51 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "537e9117-1e3a-49d6-96b0-14d5c0d486f6")
-		(property "Reference" "R5"
-			(at 146.05 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2k"
-			(at 146.05 63.4999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 141.732 62.23 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1b1ae83f-dd9c-4599-b104-99f09c276c2e")
-		)
-		(pin "1"
-			(uuid "46094eda-d67b-4ed4-b65f-03baba3bee14")
-		)
-		(instances
-			(project "LiPo_Battery_AIO"
-				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 67.31 45.72 0)
 		(unit 1)
@@ -8888,88 +8801,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 205.74 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75f522a7-eae9-4d8d-b351-2cfec1b072f2")
-		(property "Reference" "C6"
-			(at 209.55 106.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 209.55 109.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 206.7052 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 205.74 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b807a04-1bc2-4d29-b6fc-79ed9bf5c16f")
-		)
-		(pin "2"
-			(uuid "eb099a29-ca91-4b46-8134-26ca5b6bb249")
-		)
-		(instances
-			(project "LiPo_Battery_AIO"
-				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 53.34 96.52 0)
 		(unit 1)
@@ -9127,8 +8958,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 205.74 111.76 0)
+		(lib_id "Device:R")
+		(at 143.51 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9137,30 +8968,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7c589b08-7dea-41bc-93d5-e517d6d902e3")
-		(property "Reference" "#PWR025"
-			(at 205.74 118.11 0)
-			(hide yes)
+		(uuid "8118f519-80c2-416a-ae29-e073067011b7")
+		(property "Reference" "R5"
+			(at 146.05 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 205.74 116.84 0)
+		(property "Value" "2k"
+			(at 146.05 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 205.74 111.76 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 141.732 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9171,7 +9003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 111.76 0)
+			(at 143.51 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9181,8 +9013,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 111.76 0)
+		(property "Description" "Resistor"
+			(at 143.51 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9193,12 +9025,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1daa42c8-6b27-4219-8452-939c6657977c")
+			(uuid "9e151535-d50e-48f8-8715-80bec1cd964d")
+		)
+		(pin "2"
+			(uuid "3e522e8f-4149-4717-8d10-96dc49c9765d")
 		)
 		(instances
 			(project "LiPo_Battery_AIO"
 				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
-					(reference "#PWR025")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9206,7 +9041,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 208.28 101.6 0)
+		(at 199.39 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9217,7 +9052,7 @@
 		(fields_autoplaced yes)
 		(uuid "86cc54db-7410-47d3-9222-06b7a77b1ddb")
 		(property "Reference" "#FLG07"
-			(at 208.28 99.695 0)
+			(at 199.39 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9228,7 +9063,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 208.28 96.52 0)
+			(at 199.39 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9238,7 +9073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 101.6 0)
+			(at 199.39 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9249,7 +9084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 101.6 0)
+			(at 199.39 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9260,7 +9095,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 208.28 101.6 0)
+			(at 199.39 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9510,7 +9345,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 162.56 152.4 0)
+		(at 173.99 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9521,7 +9356,7 @@
 		(fields_autoplaced yes)
 		(uuid "944d1369-f8f1-4133-a623-8319945f9c24")
 		(property "Reference" "J3"
-			(at 165.1 151.1299 0)
+			(at 176.53 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9532,7 +9367,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 165.1 153.6699 0)
+			(at 176.53 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9543,7 +9378,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 162.56 152.4 0)
+			(at 173.99 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9554,7 +9389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 152.4 0)
+			(at 173.99 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9565,7 +9400,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 162.56 152.4 0)
+			(at 173.99 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10169,6 +10004,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-BATT")
+		(at 52.07 115.57 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbd4caba-5652-47a1-a769-94f9e91f1346")
+		(property "Reference" "#PWR014"
+			(at 52.07 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 52.07 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 52.07 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31d6fd42-72ae-4d0c-b103-95a59a5c4827")
+		)
+		(instances
+			(project "LiPo_Battery_AIO"
+				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 143.51 67.31 0)
 		(unit 1)
@@ -10326,6 +10239,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 161.29 153.67 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb94716c-8417-4b36-a5d0-8b039036b173")
+		(property "Reference" "C6"
+			(at 158.496 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 158.496 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 160.3248 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 161.29 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e690bff-17b7-4614-aaf5-47630f442402")
+		)
+		(pin "2"
+			(uuid "d1aa269c-18c9-4ecc-8e30-8dad112b2531")
+		)
+		(instances
+			(project "LiPo_Battery_AIO"
+				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 110.49 154.94 0)
 		(unit 1)
@@ -10405,7 +10400,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 152.4 270)
+		(at 156.21 157.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10416,7 +10411,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce7ed68a-90bf-4c65-900c-d04713c839c1")
 		(property "Reference" "#PWR027"
-			(at 151.13 152.4 0)
+			(at 149.86 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10427,7 +10422,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 152.3999 90)
+			(at 152.4 157.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10438,7 +10433,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 152.4 0)
+			(at 156.21 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10449,7 +10444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 152.4 0)
+			(at 156.21 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10460,7 +10455,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 152.4 0)
+			(at 156.21 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10644,7 +10639,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 210.82 101.6 270)
+		(at 204.47 101.6 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10655,7 +10650,7 @@
 		(fields_autoplaced yes)
 		(uuid "da7440e5-856b-4567-bbb0-7c072c1bf779")
 		(property "Reference" "#PWR023"
-			(at 207.01 101.6 0)
+			(at 200.66 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10666,7 +10661,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 214.63 101.5999 90)
+			(at 208.28 101.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10677,7 +10672,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 101.6 0)
+			(at 204.47 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10688,7 +10683,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 101.6 0)
+			(at 204.47 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10699,7 +10694,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 210.82 101.6 0)
+			(at 204.47 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10793,6 +10788,85 @@
 			(project "LiPo_Battery_AIO"
 				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 44.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e32f8676-cdca-4344-b12b-13a35ca78a07")
+		(property "Reference" "R2"
+			(at 54.102 46.736 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 50.038 46.736 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 52.07 42.672 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "267d2014-595b-4e59-a38d-60821cb33d17")
+		)
+		(pin "1"
+			(uuid "58c94e8a-97c4-40ff-9833-33951ef61196")
+		)
+		(instances
+			(project "LiPo_Battery_AIO"
+				(path "/f1de2f8f-604d-4de9-9b03-d2cb2221b37b"
+					(reference "R2")
 					(unit 1)
 				)
 			)
